@@ -21,7 +21,7 @@ class GetRequester
   end
   
 
-  JSON.parse(get_response_body.body)
+  JSON.parse(response.body)
  
   
   
